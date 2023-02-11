@@ -81,10 +81,34 @@ return (
     
       
     <div id="controls">
-      
       {!isPlaying && (
         <div>
           <h1>Timed Gesture Drawing App</h1>
+          <details>
+  <summary>Instructions for the Timed Gesture Drawing App</summary>
+
+  <p>This app allows you to upload pictures and display them one by one with a specified interval. You can also set the percentage of pictures to show, and choose whether to display them in a random order or not.</p>
+
+  <h2>Uploading Pictures</h2>
+            <p>Click the "Upload Pictures" button and select the pictures you want to upload. The app only accepts JPEG, PNG, GIF, and WEBP image formats.</p>
+            <p><em>Server does not save or store files</em></p>
+
+  <h2>Setting the Interval and Percentage of Pictures to Show</h2>
+  <p>Use the "Interval (in seconds)" input field to set the time interval for displaying each picture, in seconds. The interval can be between 1 second and 7200 seconds (2 hours).</p>
+  <p>Use the "Percentage of pictures to show" input field to set the percentage of pictures you want to display, from 0% to 100%.</p>
+  <p>Check the "Random order" checkbox to display the pictures in a random order. If the checkbox is not checked, the pictures will be displayed in the order they were uploaded.</p>
+
+  <h2>Starting and Stopping the Display</h2>
+            <p>Click the "Start" button to start displaying the pictures. The first picture will smoothly scroll into view. Click the "Stop" button to stop the display at any time.</p>
+            <p>If looking for a Timed Gesture Drawing App that provides it's own library check out <a href="https://quickposes.com/en/gestures/timed">Quickposes</a></p>
+
+</details>         
+
+        </div>
+      )}
+      
+      {!isPlaying && (
+        <div>
           <h2>Upload Pictures</h2>
           <input type="file" multiple onChange={handleFileUpload} />
         </div>
