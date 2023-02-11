@@ -85,7 +85,8 @@ return (
         <div>
           <h1>Timed Gesture Drawing App</h1>
           <details>
-  <summary>Instructions for the Timed Gesture Drawing App</summary>
+            <summary>Instructions for the Timed Gesture Drawing App</summary>
+            <p>If looking for a Timed Gesture Drawing App that provides it's own library check out <a href="https://quickposes.com/en/gestures/timed">Quickposes</a></p>
 
   <p>This app allows you to upload pictures and display them one by one with a specified interval. You can also set the percentage of pictures to show, and choose whether to display them in a random order or not.</p>
 
@@ -100,7 +101,8 @@ return (
 
   <h2>Starting and Stopping the Display</h2>
             <p>Click the "Start" button to start displaying the pictures. The first picture will smoothly scroll into view. Click the "Stop" button to stop the display at any time.</p>
-            <p>If looking for a Timed Gesture Drawing App that provides it's own library check out <a href="https://quickposes.com/en/gestures/timed">Quickposes</a></p>
+            <p>App created by <a href="https://sagresnaw.art/">Christopher Best</a></p>
+            
 
 </details>         
 
