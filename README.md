@@ -1,6 +1,10 @@
-# Poser
+# Interval Ink
 
-You have a library of images
+You have a library of images that you'd like to cycle through automatically for timed gesture drawing practice.
+
+1. Add reference pictures
+2. Set interval, sequence, and amount of the photos you'd like to cycle through
+3. Press start and begin practicing your timed gesture drawings.
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
