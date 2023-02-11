@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/intervalink/static/css/main.f977071b.css",
+    "main.js": "/intervalink/static/js/main.0a0f4af7.js",
+    "static/js/787.8912a0f6.chunk.js": "/intervalink/static/js/787.8912a0f6.chunk.js",
+    "index.html": "/intervalink/index.html",
+    "main.f977071b.css.map": "/intervalink/static/css/main.f977071b.css.map",
+    "main.0a0f4af7.js.map": "/intervalink/static/js/main.0a0f4af7.js.map",
+    "787.8912a0f6.chunk.js.map": "/intervalink/static/js/787.8912a0f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f977071b.css",
+    "static/js/main.0a0f4af7.js"
+  ]
+}
